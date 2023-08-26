@@ -1613,6 +1613,8 @@ input, select, textarea {
 			opacity: 1;
 			overflow: hidden;
 			position: relative;
+			border: 1;
+			border-color: coral;			
 		}
 
 			#main .thumb:after {
@@ -1629,6 +1631,8 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				border: 1;
+				border-color: coral;				
 			}
 
 			#main .thumb > .image {
@@ -1636,8 +1640,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				border: 1;
-				border-color: coral;
+				border: 0;
 				height: 100%;
 				left: 0;
 				position: absolute;
